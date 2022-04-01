@@ -1,8 +1,9 @@
 body{
-    background: url(9.JPG);
+    background: url(.JPG);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 0px 10%;
+    backrround: #979A9A;
 }
 .menu{
     list-style: none;
