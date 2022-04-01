@@ -1,0 +1,176 @@
+body{
+    background: url(9.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 0px 10%;
+}
+.menu{
+    list-style: none;
+    background:#5B2C6F   ;
+    width: 100%;
+    max-width: 850px;
+    margin: auto;
+    padding: 0px 10%;
+    font-size: 15px;
+    font-family: Lucida Bright;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #ef8354;
+}
+
+#Tabla1{
+    font-family: Arial;
+    margin: 100px 400px
+    width: 200px;
+    float: left;
+    transition: all 0.25s ease;
+}
+h1{
+    font-family: Arial;
+    font-size: 40px;
+    color: black;
+}
+form {
+      margin: 30px 10px
+      width:  100px;
+      float: left;
+}
+
+table{
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+th, td{
+    padding: 20px;
+}
+
+thead{
+    background-color: #17202A;
+    border-bottom: solid 5px #0F362D;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+tr:hover td{
+    background-color: #F8C471 ;
+    color: white;
+}
+
+
+
+#Tabla2{
+     font-family: Arial;
+    margin: 100px 400px
+    width:  200px;
+    float: right;
+    transition: all 0.25s ease;
+}
+
+table{
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+th, td{
+    padding: 20px;
+}
+
+thead{
+    background-color: #17202A;
+    border-bottom: solid 5px #0F362D;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+tr:hover td{
+    background-color: #F8C471 ;
+    color: white;
+}
+
+
+
+
+#header {
+height: 70%;
+font-family:Arial, Helvetica, sans-serif;
+
+
+ }  
+ .nav{
+    float: right ;
+    width: 200px;
+    margin: 100px 820px;
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgba(, 0, 0, 1.0);
+    border-radius: 10px;
+    box-shadow: 10px 7px 10px
+ }      
+ul, ol {
+ list-style:none;
+ }     
+.nav  li {
+float: left;
+            }
+            
+            .nav li a {
+                background-color:#D68910 ;
+                color:#fff;
+                text-decoration:none;
+                padding:10px 12px;
+                display:block;
+            }
+            
+            .nav li a:hover {
+                background-color:#434343;
+            }
+            
+            .nav li ul {
+                display:none;
+                position:absolute;
+                min-width:140px;
+            }
+            
+            .nav li:hover > ul {
+                display:block;
+            }
+            
+            .nav li ul li {
+                position:relative;
+            }
+            
+            .nav li ul li ul {
+                right:-140px;
+                top:0px;
+            }
+.Cuado{
+    width: 470px;
+    background: #064164;
+    margin: 20px 0px; 
+    border: 1px solid;
+}
